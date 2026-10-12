@@ -14,7 +14,7 @@
 | Loại sản phẩm | Website + trang quản trị nội dung |
 | Ý tưởng gốc | 8.1 · Website công ty (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -47,9 +47,16 @@
 | `Cms` | Dịch vụ | `/dich-vu` | P1 |
 | `Cms` | Dự án tiêu biểu | `/du-an` | P1 |
 | `Cms` | Tin tức | `/tin-tuc` | P1 |
+| `Cms` | Chi tiết dịch vụ, dự án, bài viết | `/dich-vu/[slug]`, `/du-an/[slug]`, `/tin-tuc/[slug]` | P1 |
 | `Cms` | Liên hệ, quản lý liên hệ | `/lien-he`, `/admin/contacts` | P1 |
 | `Cms` | Quản trị nội dung | `/admin` | P1 |
+| `Cms` | Quản trị banner, nội dung trang | `/admin/banners`, `/admin/pages` | P1 |
+| `Cms` | Quản trị dịch vụ, dự án | `/admin/services`, `/admin/projects` | P1 |
+| `Cms` | Quản trị bài viết, chuyên mục | `/admin/posts`, `/admin/posts/[id]` | P1 |
+| `Cms` | Báo cáo liên hệ | `/admin/reports` | P2 |
 | `Cms` | Tuyển dụng | `/tuyen-dung` | P2 |
+| `Cms` | Chi tiết tin tuyển dụng, ứng tuyển | `/tuyen-dung/[slug]` | P2 |
+| `Cms` | Quản trị tin tuyển dụng, hồ sơ ứng tuyển | `/admin/jobs` | P2 |
 | `Cms` | Song ngữ Việt, Anh | — | P3 |
 
 P1 = bắt buộc có để demo · P2 = nên có · P3 = làm thêm nếu còn thời gian.
